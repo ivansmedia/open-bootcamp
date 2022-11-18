@@ -1,10 +1,10 @@
 main {
-System.out.println(miSuma);
-}
 
+System.out.println(miSuma);
 
 int miSuma (int a,int b,int c){
 return a + b + c;
 }
 
+}
 
