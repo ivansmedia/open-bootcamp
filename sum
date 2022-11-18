@@ -1,21 +1,32 @@
-main {
-
-
-int miSuma (int a,int b,int c){
-return a + b + c;
-
-System.out.println(miSuma);
-System.out.println(miCoche);
+public class MyClass {
+    
+    public static int suma(int a, int b, int c){
+        return a+b+c;
+    }
+    
+    
+    
+    class myCoche {
+        int puertas=4;
+    }
+    public static int sumarPuerta(int pa, int pb){
+        return pa+pb;
+    }
+    
+    public static void main(String args[]) {
+        int a=5;
+        int b=3;
+        int c=4;
+        int totale = suma(a,b,c);
+        
+       int pa=29;
+       int pb=9;
+       int totalPuertas = sumarPuerta(pa, pb);
+        
+        System.out.println("El total es: " + totale);
+        System.out.println("El total de puertas es: " + totalPuertas);
+        
+    }
+    
+ 
 }
-
-}
-
-class miCoche {
-int puertas = 4;
-}
-int sumarPuerta (){
-puertas + 1;
-}
-
-
-
