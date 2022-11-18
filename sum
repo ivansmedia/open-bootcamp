@@ -1,7 +1,10 @@
-
-
-function sum (a, b, c){
-sum = a + b + c
+main {
+System.out.println(miSuma);
 }
 
-console.log(sum);
+
+int miSuma (int a,int b,int c){
+return a + b + c;
+}
+
+
