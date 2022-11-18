@@ -1,10 +1,21 @@
 main {
 
-System.out.println(miSuma);
 
 int miSuma (int a,int b,int c){
 return a + b + c;
+
+System.out.println(miSuma);
+System.out.println(miCoche);
 }
 
 }
+
+class miCoche {
+int puertas = 4;
+}
+int sumarPuerta (){
+puertas + 1;
+}
+
+
 
