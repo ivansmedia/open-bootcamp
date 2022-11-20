@@ -1,0 +1,47 @@
+public class MyClass {
+    public static void main(String args[]) {
+      Persona persona = new Persona();
+      persona.setEdad(13);
+      persona.getEdad();
+      int edadx = persona.getEdad();
+      
+      persona.setNombre("Ivan");
+      persona.getNombre();
+      String nombrex = persona.getNombre();
+      
+      persona.setTel(5556789);
+      persona.getTel();
+      int telx = persona.getTel();
+
+      System.out.println(edadx);
+      System.out.println(nombrex);
+      System.out.println(telx);
+    }
+}
+
+class Persona {
+    private int edad;
+    private String nombre;
+    private int tel;
+    
+    public void setEdad(int edad){
+        this.edad = edad;
+    }
+    public int getEdad(){
+        return this.edad;
+    }
+    
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+    public String getNombre(){
+        return this.nombre;
+    }
+    
+    public void setTel(int tel){
+        this.tel = tel;
+    }
+    public int getTel(){
+        return this.tel;
+    }
+}
